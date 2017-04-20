@@ -11,10 +11,10 @@ library(dplyr)
 
 # View in the data set. Start to understand what the data columns contains
 # Be sure to comment out the function so it won't view everytime you run the code.
-
+View(pulitzer)
 
 # Use 'colnames' to print out the names of the columns
-
+print(colnames(pulitzer))
 
 # Use 'str' to print what types of values are contained in each column
 # Did any value type surprise you? Why do you think they are that type?
